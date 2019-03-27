@@ -1,15 +1,15 @@
 {
   "name": "hello-next",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello Next!",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
     "build": "next build && tsc && tsc --project tsconfig.server.json",
-    "start": "NODE_ENV=production node .next/server"
+    "start": "NODE_ENV=production node .next/server/server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jiyong Hong <jiyongh0204@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.16.1",

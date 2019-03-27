@@ -12,6 +12,6 @@ const myRoutes = routes();
 
 pages.map(page => myRoutes.add(page));
 
-export const Link = routes.Link;
+export const Link = myRoutes.Link;
 
 export default myRoutes;
